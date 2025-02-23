@@ -4,8 +4,11 @@
     <div class="container">
         <div class="page-title">
             <h3>Users
-                <a href="roles.html" class="btn btn-sm btn-outline-primary float-end"><i class="fas fa-user-shield"></i>
-                    Roles</a>
+                <a href="<?= base_url('admin/users/add'); ?>" class="btn btn-sm btn-outline-primary float-end"><i
+                        class="fas fa-plus-circle"></i>
+                    Add</a>
+                <a href="<?= base_url('admin/dashboard'); ?>" class="btn btn-sm btn-outline-info float-end me-1"><i
+                        class="fas fa-angle-left"></i> <span class="btn-header">Return</span></a>
             </h3>
         </div>
         <div class="box box-primary">
